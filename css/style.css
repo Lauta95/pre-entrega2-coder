@@ -93,7 +93,7 @@ h2 {
     color: white;
 }
 
-.titulo-contenedor{
+.titulo-contenedor {
     margin-bottom: 20px;
 }
 
@@ -111,7 +111,7 @@ article {
     margin-bottom: 20px;
 }
 
-.imagen-juego{
+.imagen-juego {
     height: 100%;
 }
 
@@ -126,4 +126,7 @@ article {
 footer {
     background-color: #c83943;
     color: #aba9bb;
+    padding-top: 10px;
+
+    margin-top: 10px;
 }
