@@ -5,26 +5,30 @@
 }
 
 ul,
-ol{
+ol {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-p{
+p {
     margin: 0;
 }
 
 /* ---- header ---- */
 
+header {
+    background-color: #c83943;
+    color: #aba9bb;
+}
 
-.barra-busqueda{
+.barra-busqueda {
     margin: 10px;
 }
 
-.btn-busqueda{
+.btn-busqueda {
 
     background-color: white;
     color: black;
@@ -33,77 +37,93 @@ p{
     border-radius: 10px;
 }
 
-.btn-busqueda:hover{
+.btn-busqueda:hover {
     background-color: blue;
     color: aliceblue;
     transition: 0.2s;
     border: solid 3px darkmagenta;
 }
 
-body{
+body {
+    background-image: radial-gradient(circle, #97abff, #798ce5, #5b6ecb, #3b51b1, #123597);
     font-family: 'Kanit', sans-serif;
 }
 
 /* ---- main portada ---- */
 
 
-.btn-main{
-    background-color: aquamarine;
-    border: double 3px black;
-    box-shadow: 10px 10px 10px;
+.btn-main {
+    font-weight: 500;
+    background-color: #8b0019;
+    color: white;
+    border: solid 3px black;
+    box-shadow: 2px 2px 10px red;
 }
 
-.btn-main:hover{
-    background-color: aquamarine;
+.btn-main:hover {
+    background-color: #ff0011;
+    color: white;
     border: solid 3px black;
 }
 
-.imagen-portada{
+.imagen-portada {
     border-radius: 20px;
+    border: solid 2px black;
+    box-shadow: 1px 1px 1px;
 }
 
-.portada{
+.portada {
     margin-top: 15px;
 }
 
-h1{
+h1 {
     margin: 10px
 }
 
 /* ---- main contendio ---- */
 
-.contenido{
+.contenido {
     margin-top: 70px;
 
 }
 
-h2{
+h2 {
     padding: 10px;
     background-color: #00357d;
     color: white;
 }
 
-article{
+.titulo-contenedor{
+    margin-bottom: 20px;
+}
+
+article {
     padding: 10px;
     background-color: #00357d;
     color: white;
     border: solid black 5px;
-    margin-bottom: 10px;
     height: 200px;
     overflow: auto;
     text-align: start;
 }
 
-.imagenes{
-    margin-bottom: 10px;
+.imagenes {
+    margin-bottom: 20px;
 }
 
+.imagen-juego{
+    height: 100%;
+}
 
+/* ---- listado html ---- */
+
+.tarjeta {
+    margin-top: 1rem;
+}
 
 /* ---- footer ---- */
 
-footer{
-background-color: #00357d;
-color: #6cd9c6;
-
+footer {
+    background-color: #c83943;
+    color: #aba9bb;
 }
