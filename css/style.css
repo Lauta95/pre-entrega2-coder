@@ -47,10 +47,17 @@ header {
 body {
     background-image: radial-gradient(circle, #97abff, #798ce5, #5b6ecb, #3b51b1, #123597);
     font-family: 'Kanit', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* ---- main portada ---- */
 
+main{
+    padding-bottom: 15px;
+}
 
 .btn-main {
     font-weight: 500;
@@ -117,8 +124,20 @@ article {
 
 /* ---- listado html ---- */
 
-.tarjeta {
+.tarjetas {
     margin-top: 1rem;
+}
+
+.tarjeta {
+    margin-bottom: 10px;
+    border: solid 2px red;
+    border-radius: 0;
+    box-shadow: 5px 5px 10px pink;
+}
+
+.imagen-tarjeta{
+    height: 250px;
+    border-radius: 0;
 }
 
 /* ---- footer ---- */
@@ -128,5 +147,5 @@ footer {
     color: #aba9bb;
     padding-top: 10px;
 
-    margin-top: 10px;
+    margin-top: auto;
 }
