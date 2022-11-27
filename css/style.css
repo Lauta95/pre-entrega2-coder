@@ -13,6 +13,10 @@ a{
     text-decoration: none;
 }
 
+p{
+    margin: 0;
+}
+
 /* ---- header ---- */
 
 
@@ -62,6 +66,10 @@ body{
     margin-top: 15px;
 }
 
+h1{
+    margin: 10px
+}
+
 /* ---- main contendio ---- */
 
 .contenido{
@@ -80,13 +88,15 @@ article{
     background-color: #00357d;
     color: white;
     border: solid black 5px;
-    margin-top: 1px;
+    margin-bottom: 10px;
     height: 200px;
     overflow: auto;
     text-align: start;
 }
 
-
+.imagenes{
+    margin-bottom: 10px;
+}
 
 
 
@@ -95,7 +105,5 @@ article{
 footer{
 background-color: #00357d;
 color: #6cd9c6;
-padding: 1em 0;
-text-align: center;
-margin-top: 20px;
+
 }
