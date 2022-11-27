@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-.bg-papaya{
-    background-color: cadetblue;
+ul,
+ol{
+    list-style-type: none;
 }
 
-.logo-header{
-    height: 40px;
+a{
+    text-decoration: none;
 }
 
 /* ---- header ---- */
@@ -17,7 +18,6 @@
 
 .barra-busqueda{
     margin: 10px;
-
 }
 
 .btn-busqueda{
@@ -36,15 +36,12 @@
     border: solid 3px darkmagenta;
 }
 
-/* ---- main ---- */
-
-main{
-    margin-top: 20px;
+body{
+    font-family: 'Kanit', sans-serif;
 }
 
-.portada{
-    height: 100vh;
-}
+/* ---- main portada ---- */
+
 
 .btn-main{
     background-color: aquamarine;
@@ -61,3 +58,44 @@ main{
     border-radius: 20px;
 }
 
+.portada{
+    margin-top: 15px;
+}
+
+/* ---- main contendio ---- */
+
+.contenido{
+    margin-top: 70px;
+
+}
+
+h2{
+    padding: 10px;
+    background-color: #00357d;
+    color: white;
+}
+
+article{
+    padding: 10px;
+    background-color: #00357d;
+    color: white;
+    border: solid black 5px;
+    margin-top: 1px;
+    height: 200px;
+    overflow: auto;
+    text-align: start;
+}
+
+
+
+
+
+/* ---- footer ---- */
+
+footer{
+background-color: #00357d;
+color: #6cd9c6;
+padding: 1em 0;
+text-align: center;
+margin-top: 20px;
+}
