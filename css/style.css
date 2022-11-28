@@ -84,7 +84,14 @@ main{
 }
 
 h1 {
-    margin: 10px
+    margin: 10px;
+    color: white;
+    text-shadow: 3px 3px 10px;
+}
+
+.texto-inicio{
+    color: white;
+    text-shadow: 3px 3px 10px;
 }
 
 /* ---- main contendio ---- */
@@ -96,8 +103,9 @@ h1 {
 
 h2 {
     padding: 10px;
-    background-color: #00357d;
+    background-color: #0106d1;
     color: white;
+    border: solid 1px;
 }
 
 .titulo-contenedor {
@@ -106,8 +114,8 @@ h2 {
 
 article {
     padding: 10px;
-    background-color: #00357d;
-    color: white;
+    background-color: #5c015e;
+    color: rgb(243, 237, 237);
     border: solid black 5px;
     height: 200px;
     overflow: auto;
@@ -133,12 +141,18 @@ article {
     border: solid 2px red;
     border-radius: 0;
     box-shadow: 5px 5px 10px pink;
+    background-color: #181a1b;
+    color: #d1cdc7;
 }
+
+
 
 .imagen-tarjeta{
     height: 250px;
     border-radius: 0;
 }
+
+
 
 /* ---- footer ---- */
 
