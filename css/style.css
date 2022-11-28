@@ -24,6 +24,10 @@ header {
     color: #aba9bb;
 }
 
+.navegacion-letras{
+    color: white;
+}
+
 .barra-busqueda {
     margin: 10px;
 }
