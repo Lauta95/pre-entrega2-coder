@@ -24,7 +24,7 @@ header {
     color: #aba9bb;
 }
 
-.navegacion-letras{
+.navegacion-letras {
     color: white;
 }
 
@@ -59,8 +59,8 @@ body {
 
 /* ---- main portada ---- */
 
-main{
-    padding-bottom: 15px;
+main {
+    padding-bottom: 1rem;
 }
 
 .btn-main {
@@ -69,6 +69,7 @@ main{
     color: white;
     border: solid 3px black;
     box-shadow: 2px 2px 10px red;
+    transition: 0.5s;
 }
 
 .btn-main:hover {
@@ -93,7 +94,12 @@ h1 {
     text-shadow: 3px 3px 10px;
 }
 
-.texto-inicio{
+h1:hover {
+    text-shadow: 3px 3px 20px;
+    transition: 0.5s;
+}
+
+.texto-inicio {
     color: white;
     text-shadow: 3px 3px 10px;
 }
@@ -102,12 +108,11 @@ h1 {
 
 .contenido {
     margin-top: 70px;
-
 }
 
 h2 {
     padding: 10px;
-    background-color: #0106d1;
+    background-color: #5c015e;
     color: white;
     border: solid 1px;
 }
@@ -124,17 +129,25 @@ article {
     height: 200px;
     overflow: auto;
     text-align: start;
+    box-shadow: 1px 1px 20px pink;
 }
 
-.imagenes {
+.contenido-items {
     margin-bottom: 20px;
 }
 
+
 .imagen-juego {
     height: 100%;
+    width: 100%;
 }
 
 /* ---- listado html ---- */
+
+h3 {
+    font-size: large;
+    font-weight: 600;
+}
 
 .tarjetas {
     margin-top: 1rem;
@@ -147,11 +160,25 @@ article {
     box-shadow: 5px 5px 10px pink;
     background-color: #181a1b;
     color: #d1cdc7;
+    width: 20rem;
 }
 
-.imagen-tarjeta{
-    height: 250px;
-    border-radius: 0;
+
+
+.boton-comprar {
+    margin: 10px;
+    padding: 1px;
+    border-radius: 10px;
+    border: solid white 3px;
+    color: black;
+    background-image: linear-gradient(to top, #97abff, #798ce5, #5b6ecb, #3b51b1, #123597);
+    font-size: larger;
+}
+
+.boton-comprar:hover {
+    color: white;
+    font-weight: 600;
+    box-shadow: 1px 1px 10px white;
 }
 
 /* ---- pedir juego html ---- */
@@ -163,9 +190,10 @@ article {
     border: solid black 5px;
     width: 30rem;
     text-align: start;
+    box-shadow: 1px 1px 20px pink;
 }
 
-.formulario div{
+.formulario div {
     margin: 20px;
 }
 
