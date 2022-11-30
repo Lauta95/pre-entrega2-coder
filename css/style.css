@@ -84,10 +84,6 @@ main {
     box-shadow: 1px 1px 1px;
 }
 
-.portada {
-    margin-top: 15px;
-}
-
 h1 {
     margin: 10px;
     color: white;
@@ -107,10 +103,6 @@ h1:hover {
 }
 
 /* ---- main contendio ---- */
-
-.contenido {
-    margin-top: 70px;
-}
 
 h2 {
     padding: 10px;
@@ -161,7 +153,7 @@ article {
 /* ---- listado html ---- */
 
 h3 {
-    font-size: large;
+    font-size: 1rem;
     font-weight: 600;
     cursor: default;
 }
@@ -169,10 +161,6 @@ h3 {
 h3:hover{
     color: white;
     text-shadow: 1px 1px 10px;
-}
-
-.tarjetas {
-    margin-top: 1rem;
 }
 
 .tarjeta {
@@ -210,12 +198,11 @@ h3:hover{
     font-weight: 600;
     box-shadow: 1px 1px 10px white;
     transition: 0.4s;
-    transition-timing-function: ease-in;
 }
 
 /* ---- pedir juego html ---- */
 
-.formulario {
+.texto-complementario {
     padding: 1rem;
     background-color: #5c015e;
     color: rgb(243, 237, 237);
@@ -225,7 +212,7 @@ h3:hover{
     box-shadow: 1px 1px 20px pink;
 }
 
-.formulario div {
+.texto-complementario div {
     margin: 20px;
 }
 
