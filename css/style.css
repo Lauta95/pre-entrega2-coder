@@ -63,19 +63,20 @@ main {
     padding-bottom: 1rem;
 }
 
-.btn-main {
-    font-weight: 500;
+.boton-ver {
+    font-weight: 900;
     background-color: #8b0019;
     color: white;
     border: solid 3px black;
     box-shadow: 2px 2px 10px red;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
-.btn-main:hover {
+.boton-ver:hover {
     background-color: #ff0011;
     color: white;
     border: solid 3px black;
+    font-size: 2rem;
 }
 
 .imagen-portada {
@@ -91,15 +92,9 @@ h1 {
     cursor: default;
 }
 
-h1:hover {
-    text-decoration: underline;
-    text-shadow: 3px 3px 20px;
-    transition: 0.5s;
-}
-
 .texto-inicio {
+    font-size: larger;
     color: white;
-    text-shadow: 3px 3px 10px;
 }
 
 /* ---- main contendio ---- */
@@ -107,14 +102,9 @@ h1:hover {
 h2 {
     padding: 10px;
     color: white;
-    background-color: #5c015e;
+    text-shadow: white 2px 2px 10px;
+    background-color: black;
     border: solid 1px;
-}
-
-h2:hover {
-    color: red;
-    box-shadow: 10px 10px 10px red;
-    transition: 1s;
 }
 
 .titulo-contenedor {
@@ -141,14 +131,9 @@ article {
     height: 100%;
     width: 100%;
     border: 3px solid;
-
-    transition: all 1s ease-out 0.1s;
 }
 
-.imagen-juego:hover {
-    transform: translate(-2px, 10px);
-    transition: 1s;
-}
+
 
 /* ---- listado html ---- */
 
@@ -158,10 +143,6 @@ h3 {
     cursor: default;
 }
 
-h3:hover{
-    color: white;
-    text-shadow: 1px 1px 10px;
-}
 
 .tarjeta {
     margin-bottom: 10px;
@@ -173,15 +154,11 @@ h3:hover{
     width: 20rem;
 }
 
-.texto-tarjeta{
+.texto-tarjeta {
     color: rgb(212, 209, 209);
     cursor: default;
 }
 
-.texto-tarjeta:hover{
-    color: white;
-    text-shadow: 1px 1px 10px;
-}
 
 .boton-comprar {
     margin: 10px;
@@ -189,7 +166,7 @@ h3:hover{
     border-radius: 10px;
     border: solid white 3px;
     color: black;
-    background-image: linear-gradient(to top, #97abff, #798ce5, #5b6ecb, #3b51b1, #123597);
+    background-color: rgb(221, 9, 9);
     font-size: larger;
 }
 
