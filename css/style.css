@@ -92,9 +92,11 @@ h1 {
     margin: 10px;
     color: white;
     text-shadow: 3px 3px 10px;
+    cursor: default;
 }
 
 h1:hover {
+    text-decoration: underline;
     text-shadow: 3px 3px 20px;
     transition: 0.5s;
 }
@@ -112,9 +114,15 @@ h1:hover {
 
 h2 {
     padding: 10px;
-    background-color: #5c015e;
     color: white;
+    background-color: #5c015e;
     border: solid 1px;
+}
+
+h2:hover {
+    color: red;
+    box-shadow: 10px 10px 10px red;
+    transition: 1s;
 }
 
 .titulo-contenedor {
@@ -140,6 +148,14 @@ article {
 .imagen-juego {
     height: 100%;
     width: 100%;
+    border: 3px solid;
+
+    transition: all 1s ease-out 0.1s;
+}
+
+.imagen-juego:hover {
+    transform: translate(-2px, 10px);
+    transition: 1s;
 }
 
 /* ---- listado html ---- */
@@ -147,6 +163,12 @@ article {
 h3 {
     font-size: large;
     font-weight: 600;
+    cursor: default;
+}
+
+h3:hover{
+    color: white;
+    text-shadow: 1px 1px 10px;
 }
 
 .tarjetas {
@@ -163,7 +185,15 @@ h3 {
     width: 20rem;
 }
 
+.texto-tarjeta{
+    color: rgb(212, 209, 209);
+    cursor: default;
+}
 
+.texto-tarjeta:hover{
+    color: white;
+    text-shadow: 1px 1px 10px;
+}
 
 .boton-comprar {
     margin: 10px;
@@ -179,6 +209,8 @@ h3 {
     color: white;
     font-weight: 600;
     box-shadow: 1px 1px 10px white;
+    transition: 0.4s;
+    transition-timing-function: ease-in;
 }
 
 /* ---- pedir juego html ---- */
