@@ -197,8 +197,14 @@ h3 {
 
 footer {
     background-color: #c83943;
-    color: #aba9bb;
+    color: white;
+    font-weight: 900;
     padding-top: 10px;
 
     margin-top: auto;
+}
+
+.redes:hover {
+    margin-top: 10px;
+
 }
