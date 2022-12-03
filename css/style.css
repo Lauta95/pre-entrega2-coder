@@ -193,6 +193,17 @@ h3 {
     margin: 20px;
 }
 
+/* ---- preguntas frecuentes html ---- */
+
+.acordeon{
+    background-color: #5c015e;
+    border: solid black 5px;
+    box-shadow: 1px 1px 20px pink;
+}
+
+
+
+
 /* ---- footer ---- */
 
 footer {
