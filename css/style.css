@@ -163,14 +163,15 @@ h3 {
     margin: 10px;
     padding: 1px;
     border: solid white 3px;
-    color: black;
-    background-color: rgb(221, 9, 9);
+    color: gold;
+    background-color: rgb(123, 6, 6);
     font-size: larger;
     transition: 0.4s;
 }
 
 .boton-comprar:hover {
     color: white;
+    background-color: red;
     box-shadow: 1px 1px 10px white;
 }
 
