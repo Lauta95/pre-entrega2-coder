@@ -193,9 +193,15 @@ h3 {
     margin: 20px;
 }
 
+.formulario-inputs {
+    border-radius: 10px;
+    border: 2px red solid;
+    box-shadow: 1px 1px 10px black;
+}
+
 /* ---- preguntas frecuentes html ---- */
 
-.acordeon{
+.acordeon {
     background-color: #5c015e;
     border: solid black 5px;
     box-shadow: 1px 1px 20px pink;
