@@ -156,25 +156,22 @@ h3 {
 
 .texto-tarjeta {
     color: rgb(212, 209, 209);
-    cursor: default;
 }
 
 
 .boton-comprar {
     margin: 10px;
     padding: 1px;
-    border-radius: 10px;
     border: solid white 3px;
     color: black;
     background-color: rgb(221, 9, 9);
     font-size: larger;
+    transition: 0.4s;
 }
 
 .boton-comprar:hover {
     color: white;
-    font-weight: 600;
     box-shadow: 1px 1px 10px white;
-    transition: 0.4s;
 }
 
 /* ---- pedir juego html ---- */
@@ -205,6 +202,11 @@ h3 {
     background-color: #5c015e;
     border: solid black 5px;
     box-shadow: 1px 1px 20px pink;
+    font-size: 20px;
+}
+
+.acordeon-titulo{
+    font-size: 20px;
 }
 
 
@@ -219,9 +221,9 @@ footer {
     padding-top: 10px;
 
     margin-top: auto;
+    
 }
 
 .redes:hover {
-    margin-top: 10px;
-
+    height: 40px;
 }
