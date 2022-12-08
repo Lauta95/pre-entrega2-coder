@@ -152,7 +152,8 @@ h1 {
 
 /* ---- listado html ---- */
 
-h3 {
+.titulo-tarjeta {
+    margin-bottom: 10px;
     font-size: 1rem;
     font-weight: 600;
     cursor: default;
