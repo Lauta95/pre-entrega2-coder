@@ -48,14 +48,18 @@ header {
 }
 
 .btn-busqueda:hover {
-    background-color: blue;
-    color: aliceblue;
+    background-color: rgb(250, 238, 9);
+    color: black;
     transition: 0.2s;
     border: solid 3px darkmagenta;
+    box-shadow: 3px 3px 30px white;
 }
 
 body {
-    background-image: radial-gradient(circle, #97abff, #798ce5, #5b6ecb, #3b51b1, #123597);
+    background-image: linear-gradient(to bottom, #f8d800, #f1d307, #ebce0d, #e4c911, #dec415);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Kanit', sans-serif;
 
     display: flex;
@@ -95,7 +99,7 @@ main {
     background-color: #ff0011;
     color: white;
     border: solid 3px black;
-    font-size: 2rem;
+    font-size: 18px;
 }
 
 .imagen-portada {
@@ -106,14 +110,15 @@ main {
 
 h1 {
     margin: 10px;
-    color: white;
+    color: black;
     text-shadow: 3px 3px 10px;
     cursor: default;
 }
 
 .texto-inicio {
     font-size: larger;
-    color: white;
+    color: black;
+    font-weight: 800;
 }
 
 /* ---- main contendio ---- */
@@ -148,6 +153,11 @@ h1 {
     height: 100%;
     width: 100%;
     border: 3px solid;
+}
+
+.texto-informacion{
+    font-size: larger;
+    font-weight: 300;
 }
 
 /* ---- listado html ---- */
@@ -195,7 +205,7 @@ h1 {
 
 .texto-complementario {
     padding: 1rem;
-    background-color: #5c015e;
+    background-color: rgb(39, 38, 38);
     color: rgb(243, 237, 237);
     border: solid black 5px;
     width: 30rem;
