@@ -131,8 +131,8 @@ h1 {
 .contenido {
     padding: 1rem;
     background-color: rgb(243, 237, 237);
-    color: #5c015e;
-    border: solid black 5px;
+    color: rgb(42, 41, 41);
+    border: solid black 3px;
     height: 200px;
     overflow: auto;
     text-align: start;
