@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 0;
+}

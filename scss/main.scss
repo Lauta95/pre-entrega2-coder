@@ -1,0 +1,13 @@
+@import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./base/base";
+
+@import "./components/navbar";
+
+@import "./pages/index";
+@import "./pages/listado";
+@import "./pages/pedir-juego";
+@import "./pages/nosotros";
+@import "./pages/faq";
+

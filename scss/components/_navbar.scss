@@ -1,0 +1,30 @@
+header {
+    background-color: $fondo-header;
+    color: #aba9bb;
+
+    &__navegacion-letras{
+        color: white;
+
+    }
+
+    &__barra-busqueda{
+        margin: 10px;
+    }
+
+    &__btn-busqueda{
+        background-color: white;
+        color: black;
+        border: solid 3px black;
+        box-shadow: 1px 1px 3px;
+        border-radius: 10px;
+
+        &:hover{
+            background-color: rgb(250, 238, 9);
+            color: black;
+            transition: 0.2s;
+            border: solid 3px darkmagenta;
+            box-shadow: 3px 3px 30px white;
+        }
+    }
+
+}
