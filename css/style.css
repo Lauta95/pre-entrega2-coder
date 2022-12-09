@@ -56,7 +56,7 @@ header {
 }
 
 body {
-    background-image: linear-gradient(to bottom, #f8d800, #f1d307, #ebce0d, #e4c911, #dec415);
+    background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -235,7 +235,7 @@ h1 {
 .descripcion-carrusel {
     font-weight: 600;
     font-size: larger;
-    text-shadow: 5px 5px 10px red;
+    text-shadow: 5px 5px 10px rgb(216, 216, 10);
 }
 
 /* ---- preguntas frecuentes html ---- */
