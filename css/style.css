@@ -56,7 +56,7 @@ header {
 }
 
 body {
-    background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+    background-image: radial-gradient(circle, #ffe21f, #e9cd17, #d3b910, #bda507, #a89200);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
