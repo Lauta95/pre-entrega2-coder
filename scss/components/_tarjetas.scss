@@ -1,0 +1,19 @@
+tarjeta {
+    margin-bottom: 10px;
+    border: solid 2px red;
+    border-radius: 0;
+    box-shadow: 5px 5px 10px pink;
+    background-color: #181a1b;
+    color: #d1cdc7;
+    width: 20rem;
+
+    &__titulo-tarjeta {
+        margin-bottom: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    &__texto-tarjeta {
+        color: rgb(212, 209, 209);
+    }
+}

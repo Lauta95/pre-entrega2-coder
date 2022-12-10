@@ -1,0 +1,33 @@
+imagen-portada {
+    border-radius: 20px;
+    border: solid 2px black;
+    box-shadow: 1px 1px 1px;
+}
+
+texto-inicio {
+    font-size: larger;
+    color: black;
+    font-weight: 800;
+}
+
+imagen-juego {
+    height: 100%;
+    width: 100%;
+    border: 3px solid;
+}
+
+contenido-items{
+    margin-bottom: 20px;
+
+    &__contenido {
+        padding: 1rem;
+        background-color: rgb(243, 237, 237);
+        color: rgb(42, 41, 41);
+        border: solid black 3px;
+        height: 200px;
+        overflow: auto;
+        text-align: start;
+        box-shadow: 1px 1px 20px pink;
+    }
+}
+
