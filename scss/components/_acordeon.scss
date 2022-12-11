@@ -1,0 +1,10 @@
+.acordeon {
+    background-color: #5c015e;
+    border: solid black 5px;
+    box-shadow: 1px 1px 20px $sombra-cajas;
+    font-size: 20px;
+
+    &__acordeon__boton {
+        font-size: 20px;
+    }
+}

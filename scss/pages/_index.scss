@@ -1,0 +1,25 @@
+.grilla {
+    margin-bottom: 20px;
+
+    &__imagen {
+        height: 100%;
+        width: 100%;
+        border: 3px solid;
+    }
+}
+
+.informacion {
+    padding: 1rem;
+    background-color: rgb(243, 237, 237);
+    color: rgb(42, 41, 41);
+    border: solid black 3px;
+    height: 200px;
+    overflow: auto;
+    text-align: start;
+    box-shadow: 1px 1px 20px $sombra-cajas;
+}
+
+.tecnico {
+    font-size: larger;
+    font-weight: 300;
+}
