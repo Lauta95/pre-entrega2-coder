@@ -31,9 +31,9 @@
             </button>
 
             <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <form class="d-flex barra-busqueda" role="search">
+                <form class="d-flex busqueda" role="search">
                     <input class="form-control me-2" type="search" placeholder="nombre del juego" aria-label="Search">
-                    <button class="btn btn-outline-success btn-busqueda btn-sm" type="submit">Buscar</button>
+                    <button class="btn btn-outline-success busqueda__boton btn-sm" type="submit">Buscar</button>
                 </form>
 
                 <ul class="navbar-nav">
@@ -73,28 +73,28 @@
 
                 <div class="d-flex justify-content-center ">
 
-                    <div class="texto-complementario d-flex justify-content-center">
+                    <div class="formulario d-flex justify-content-center">
 
                         <form action="">
                             <div class="text-center">
                                 <label for="nombre-usuario">Nombre y apellido: </label>
                                 <input type="text" id="nombre-usuario" placeholder=" Pablo Pérez" required
-                                    name="nombre-usuario" class="formulario-inputs">
+                                    name="nombre-usuario" class="formulario__inputs">
                             </div>
                             <div class="text-center">
                                 <label for="email-usuario">Email: </label>
                                 <input type="email" id="email-usuario" placeholder="ejemplo@gmail.com"
-                                    name="email-usuario" class="formulario-inputs">
+                                    name="email-usuario" class="formulario__inputs">
                             </div>
                             <div class="text-center">
                                 <label for="nombre-juego">Nombre del juego:</label>
                                 <input type="text" id="nombre-juego" placeholder="Minecraft" name="nombre-juego"
-                                    class="formulario-inputs">
+                                    class="formulario__inputs">
                             </div>
 
                             <div class="text-center">
                                 <label for="motivo">Motivo del pedido:</label>
-                                <select id="motivo" name="motivo" class="formulario-inputs">
+                                <select id="motivo" name="motivo" class="formulario__inputs">
                                     <option value="noesta">El juego no está</option>
                                     <option value="errorcarga">Error de carga</option>
                                     <option value="otro">Otro</option>
@@ -105,14 +105,14 @@
                             <div class="text-center">
                                 <label for="comentarios">Comentarios adicionales:</label>
                                 <textarea name="comentarios" id="comentarios" cols="20" rows="1"
-                                    class="formulario-inputs"></textarea>
+                                    class="formulario__inputs"></textarea>
 
                             </div>
 
                             <div class="text-center">
                                 <label for="recibir">Recibir novedades por mail?</label>
                                 <input type="checkbox" id="recibir" value="aceptar-novedades" name="recibir"
-                                    class="formulario-inputs">
+                                    class="formulario__inputs">
                             </div>
 
                             <div class="d-flex justify-content-center">
@@ -147,34 +147,34 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../img/carrusel-hogwarts.jpg" class="d-block imagen-carrusel img-fluid"
+                        <img src="../img/carrusel-hogwarts.jpg" class="d-block carrusel__imagen img-fluid"
                             alt="Portada del juego personaje principal mirando al castillo con varita mágica en la mano">
-                        <div class="carousel-caption d-md-block descripcion-carrusel">
+                        <div class="carousel-caption d-md-block carrusel__texto">
                             <h3>Hogwarts Legacy</h3>
                             <p>Hogwarts Legacy es un videojuego de rol y aventuras en tercera persona.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../img/carrusel-marvel-spiderman-2.jpg" class="d-block imagen-carrusel img-fluid"
+                        <img src="../img/carrusel-marvel-spiderman-2.jpg" class="d-block carrusel__imagen img-fluid"
                             alt="Portada del juego spiderman y Spiderman negro mirando a la camara">
-                        <div class="carousel-caption d-md-block descripcion-carrusel">
+                        <div class="carousel-caption d-md-block carrusel__texto">
                             <h3>Marvel's Spider-Man 2</h3>
                             <p>Interpretado tanto por Peter Parker como Miles Morales, en su lucha contra el peligroso
                                 Venom</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../img/carrusel-one-piece.jpg" class="d-block imagen-carrusel img-fluid"
+                        <img src="../img/carrusel-one-piece.jpg" class="d-block carrusel__imagen img-fluid"
                             alt="Personajes del juego mirando a cámara">
-                        <div class="carousel-caption d-md-block descripcion-carrusel">
+                        <div class="carousel-caption d-md-block carrusel__texto">
                             <h3>One Piece Odyssey</h3>
                             <p>El famoso pirata Luffy surca los mares del Nuevo Mundo en busca de nuevas islas</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../img/carrusel-forspoken.jpg" class="d-block imagen-carrusel img-fluid"
+                        <img src="../img/carrusel-forspoken.jpg" class="d-block carrusel__imagen img-fluid"
                             alt="personaje principal arrodillada mirando a cámara">
-                        <div class="carousel-caption d-md-block descripcion-carrusel">
+                        <div class="carousel-caption d-md-block carrusel__texto">
                             <h3>Forspoken</h3>
                             <p>Nuevo videojuego de acción y rol de Square Enix.</p>
                         </div>
