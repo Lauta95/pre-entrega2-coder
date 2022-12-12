@@ -151,7 +151,7 @@ header {
   box-shadow: 1px 1px 20px rgb(241, 182, 192);
   font-size: 20px;
 }
-.acordeon__acordeon__boton {
+.acordeon__btnacordeon {
   font-size: 20px;
 }
 
@@ -204,13 +204,12 @@ h1 {
   margin: 10px;
   color: black;
   text-shadow: 3px 3px 10px;
-  cursor: default;
 }
 
 .texto-inicio {
-  font-size: larger;
   color: black;
   font-weight: 800;
+  font-size: larger;
 }
 
 /* ---- main contendio ---- */
@@ -250,6 +249,7 @@ footer {
   background-color: #07203a;
   color: white;
   font-weight: 900;
+  font-size: larger;
   padding-top: 10px;
   margin-top: auto;
 }

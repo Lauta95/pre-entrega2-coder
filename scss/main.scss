@@ -47,13 +47,11 @@ h1 {
     margin: 10px;
     color: black;
     text-shadow: 3px 3px 10px;
-    cursor: default;
 }
 
 .texto-inicio {
-    font-size: larger;
     color: black;
-    font-weight: 800;
+    @include font(800, larger);
 }
 
 /* ---- main contendio ---- */
@@ -106,7 +104,7 @@ h1 {
 footer {
     background-color: #07203a;
     color: white;
-    font-weight: 900;
+    @include font(900, larger);
     padding-top: 10px;
 
     margin-top: auto;
