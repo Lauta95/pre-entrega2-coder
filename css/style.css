@@ -60,6 +60,19 @@ header {
   color: rgb(250, 238, 9);
 }
 
+footer {
+  background-color: #07203a;
+  color: white;
+  font-weight: 900;
+  font-size: larger;
+  padding-top: 10px;
+  margin-top: auto;
+}
+
+.redes:hover {
+  height: 40px;
+}
+
 .btnver {
   font-weight: 900;
   background-color: #8b0019;
@@ -245,17 +258,5 @@ h1 {
 /* --- carrusel ---- */
 /* ---- preguntas frecuentes html ---- */
 /* ---- footer ---- */
-footer {
-  background-color: #07203a;
-  color: white;
-  font-weight: 900;
-  font-size: larger;
-  padding-top: 10px;
-  margin-top: auto;
-}
-
-.redes:hover {
-  height: 40px;
-}
 
 /*# sourceMappingURL=style.css.map */
