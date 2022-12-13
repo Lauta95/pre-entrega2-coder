@@ -1,0 +1,19 @@
+.formulario {
+    padding: 1rem;
+    background-color: rgb(39, 38, 38);
+    color: rgb(243, 237, 237);
+    border: solid black 5px;
+    width: 30rem;
+    text-align: start;
+    box-shadow: 1px 1px 20px $sombra-cajas;
+
+    div {
+        margin: 20px;
+    }
+
+    &__inputs {
+        border-radius: 10px;
+        border: 2px red solid;
+        box-shadow: 1px 1px 10px black;
+    }
+}
