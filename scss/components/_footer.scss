@@ -1,0 +1,13 @@
+footer {
+    background-color: #07203a;
+    color: white;
+    @include font(900, larger);
+    padding-top: 10px;
+
+    margin-top: auto;
+
+}
+
+.redes:hover {
+    height: 40px;
+}

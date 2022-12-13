@@ -21,7 +21,7 @@ header {
             background-color: $amarillo-hover;
             color: black;
             transition: 0.2s;
-            border: solid 3px darkmagenta;
+            border: solid 3px $border-hover;
             box-shadow: 3px 3px 30px white;
         }
     }
@@ -35,16 +35,3 @@ header {
 }
 
 
-footer {
-    background-color: #07203a;
-    color: white;
-    @include font(900, larger);
-    padding-top: 10px;
-
-    margin-top: auto;
-
-}
-
-.redes:hover {
-    height: 40px;
-}
