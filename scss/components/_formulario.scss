@@ -1,4 +1,4 @@
-.formulario {
+.cajainfo {
     padding: 1rem;
     background-color: rgb(39, 38, 38);
     color: rgb(243, 237, 237);
@@ -15,5 +15,10 @@
         border-radius: 10px;
         border: 2px red solid;
         box-shadow: 1px 1px 10px black;
+    }
+
+    &__nosotros{
+        font-size: large;
+        font-style: oblique;
     }
 }

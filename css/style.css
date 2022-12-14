@@ -176,7 +176,7 @@ header {
   font-size: 20px;
 }
 
-.formulario {
+.cajainfo {
   padding: 1rem;
   background-color: rgb(39, 38, 38);
   color: rgb(243, 237, 237);
@@ -185,13 +185,17 @@ header {
   text-align: start;
   box-shadow: 1px 1px 20px rgb(241, 182, 192);
 }
-.formulario div {
+.cajainfo div {
   margin: 20px;
 }
-.formulario__inputs {
+.cajainfo__inputs {
   border-radius: 10px;
   border: 2px red solid;
   box-shadow: 1px 1px 10px black;
+}
+.cajainfo__nosotros {
+  font-size: large;
+  font-style: oblique;
 }
 
 footer {
