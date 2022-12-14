@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encontra todo el listado de juegos y descubrí ofertas y precompras">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
-    <title>Juegos</title>
+    <title>Juegos | Comprar juegos</title>
     <link rel="icon" type="image/x-icon" href="../img/favicon.icon">
 </head>
 
@@ -31,9 +32,9 @@
             </button>
 
             <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <form class="d-flex barra-busqueda" role="search">
+                <form class="d-flex busqueda" role="search">
                     <input class="form-control me-2" type="search" placeholder="nombre del juego" aria-label="Search">
-                    <button class="btn btn-outline-success btn-busqueda btn-sm" type="submit">Buscar</button>
+                    <button class="btn btn-outline-success busqueda__boton btn-sm" type="submit">Buscar</button>
                 </form>
 
                 <ul class="navbar-nav">
@@ -80,15 +81,14 @@
                         <img src="../img/resident-evil.jpg" class="card-img-top" alt="Portada juego resident evil">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Resident Evil 4</h3>
-                                <p class="texto-tarjeta">Sobrevivir es solo el principio. Con una mecánica de juego
+                                <h3 class="tarjeta__titulo">Resident Evil 4</h3>
+                                <p class="tarjeta__texto">Sobrevivir es solo el principio. Con una mecánica de juego
                                     modernizada, una historia reimaginada y unos gráficos espectacularmente detallados,
                                     Resident Evil 4 supone el renacimiento de un gigante del mundo de los videojuegos.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/2050650/Resident_Evil_4/" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
-                                juego</a>
+                                class="d-flex align-items-center justify-content-center tarjeta__boton--precompra">Precomprar</a>
                         </div>
                     </article>
                 </div>
@@ -99,13 +99,13 @@
                         <img src="../img/detroit-become-human.jpg" class="card-img-top" alt="Portada juego detroit">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Detroit: Become Human</h3>
-                                <p class="texto-tarjeta">El destino de la humanidad y los androides en tus manos. Cada
+                                <h3 class="tarjeta__titulo">Detroit: Become Human</h3>
+                                <p class="tarjeta__texto">El destino de la humanidad y los androides en tus manos. Cada
                                     decisión que tomes afectará al resultado del juego, en una de las tramas narrativas
                                     con ramificaciones más intrincadas que jamás se ha visto. </p>
                             </div>
                             <a href="https://store.steampowered.com/app/1222140/Detroit_Become_Human/" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -117,14 +117,14 @@
                         <img src="../img/god-of-war.jpg" class="card-img-top" alt="Portada juego god of war">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">God Of War</h3>
-                                <p class="texto-tarjeta">Kratos ha dejado atrás su venganza contra los dioses del Olimpo
+                                <h3 class="tarjeta__titulo">God Of War</h3>
+                                <p class="tarjeta__texto">Kratos ha dejado atrás su venganza contra los dioses del Olimpo
                                     y vive ahora como un hombre en los dominios de los dioses y monstruos nórdicos. En
                                     este mundo cruel e implacable debe luchar para sobrevivir… y enseñar a su hijo a
                                     hacerlo también.</p>
                             </div>
                             <a href="https://store.steampowered.com/app/1593500/God_of_War/" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -136,15 +136,14 @@
                             alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Read Dead Redemption 2</h3>
-                                <p class="texto-tarjeta">Red Dead Redemption 2 es la épica historia de Arthur Morgan
+                                <h3 class="tarjeta__titulo">Read Dead Redemption 2</h3>
+                                <p class="tarjeta__texto">Red Dead Redemption 2 es la épica historia de Arthur Morgan
                                     y la banda de Van der Linde, que huyen por toda América en el albor de una nueva
                                     era.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
-                                juego</a>
+                                class="d-flex align-items-center justify-content-center tarjeta__boton--oferta">De oferta!</a>
                         </div>
                     </article>
                 </div>
@@ -154,15 +153,15 @@
                         <img src="../img/spider-man.jpg" class="card-img-top" alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Marvel's Spider-Man: Miles Morales</h3>
-                                <p class="texto-tarjeta">El adolescente Miles Morales se adapta a su nuevo barrio al
+                                <h3 class="tarjeta__titulo">Marvel's Spider-Man: Miles Morales</h3>
+                                <p class="tarjeta__texto">El adolescente Miles Morales se adapta a su nuevo barrio al
                                     tiempo que sigue los
                                     pasos de Peter Parker, su mentor, para convertirse en un nuevo Spider-Man.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/1817190/Marvels_SpiderMan_Miles_Morales/"
                                 target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -173,14 +172,14 @@
                         <img src="../img/elden-ring.jpg" class="card-img-top" alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Elden Ring</h3>
-                                <p class="texto-tarjeta">El nuevo juego de rol y acción de amientación fantástica.
+                                <h3 class="tarjeta__titulo">Elden Ring</h3>
+                                <p class="tarjeta__texto">El nuevo juego de rol y acción de amientación fantástica.
                                     Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y
                                     encumbrarte como señor del Círculo en las Tierras Intermedias.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -192,14 +191,14 @@
                             alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Football Manager 2023</h3>
-                                <p class="texto-tarjeta">Confecciona la plantilla de tus sueños, supera a tus rivales y
+                                <h3 class="tarjeta__titulo">Football Manager 2023</h3>
+                                <p class="tarjeta__texto">Confecciona la plantilla de tus sueños, supera a tus rivales y
                                     vive la emoción de las grandes noches europeas en la UEFA Champions League. Emprende
                                     tu viaje hacia la gloria.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/1904540/Football_Manager_2023/" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -211,13 +210,13 @@
                             alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">The Callisto Protocol</h3>
-                                <p class="texto-tarjeta">Sobrevive y escapa de los horrores de Calisto. Descubre los
+                                <h3 class="tarjeta__titulo">The Callisto Protocol</h3>
+                                <p class="tarjeta__texto">Sobrevive y escapa de los horrores de Calisto. Descubre los
                                     oscuros secretos de la Luna Muerta de Júpiter.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/1544020/The_Callisto_Protocol/" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -229,14 +228,14 @@
                             alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Crysis 2 Remastered</h3>
-                                <p class="texto-tarjeta">Revive la legendaria campaña de un jugador del clásico shooter
+                                <h3 class="tarjeta__titulo">Crysis 2 Remastered</h3>
+                                <p class="tarjeta__texto">Revive la legendaria campaña de un jugador del clásico shooter
                                     en primera persona, Crysis 2, optimizada para los dispositivos actuales en Crysis 2
                                     Remastered.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/2096600/Crysis_2_Remastered/" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -247,14 +246,14 @@
                         <img src="../img/dragon-ball.jpg" class="card-img-top" alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Dragon Ball Xenoverse 2</h3>
-                                <p class="texto-tarjeta">Dragon Ball Xenoverse viene con gráficos mejorados de su
+                                <h3 class="tarjeta__titulo">Dragon Ball Xenoverse 2</h3>
+                                <p class="tarjeta__texto">Dragon Ball Xenoverse viene con gráficos mejorados de su
                                     precuela que sumergirán al jugador en el mayor y mas detallado mundo de Dragon Ball
                                     jamás desarrollado.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/454650/DRAGON_BALL_XENOVERSE_2/" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -266,13 +265,13 @@
                             alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Gotham Knights</h3>
-                                <p class="texto-tarjeta">Batman ha muerto. La seguridad de Gotham depende ahora de
+                                <h3 class="tarjeta__titulo">Gotham Knights</h3>
+                                <p class="tarjeta__texto">Batman ha muerto. La seguridad de Gotham depende ahora de
                                     Batgirl, Nightwing, Capucha Roja y Robin.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/1496790/Gotham_Knights/" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -283,14 +282,14 @@
                         <img src="../img/carrion.jpg" class="card-img-top" alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Carrion</h3>
-                                <p class="texto-tarjeta">Carrion es un juego de horror en el que asumes el rol de una
+                                <h3 class="tarjeta__titulo">Carrion</h3>
+                                <p class="tarjeta__texto">Carrion es un juego de horror en el que asumes el rol de una
                                     creatura amorfa proveniente de un lugar desconocido, acechando y consumiendo
                                     aquellos que te encerraron.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/953490/CARRION/" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -302,14 +301,14 @@
                             alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Street Fighter V</h3>
-                                <p class="texto-tarjeta">Experimenta la intensidad de la batalla cara a cara en Street
+                                <h3 class="tarjeta__titulo">Street Fighter V</h3>
+                                <p class="tarjeta__texto">Experimenta la intensidad de la batalla cara a cara en Street
                                     Fighter V.Elige entre 16 personajes icónicos, cada uno con su propia historia
                                     personal y desafíos de entrenamiento únicos.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/310950/Street_Fighter_V" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -321,14 +320,14 @@
                             alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Crash Bandicoot 4</h3>
-                                <p class="texto-tarjeta">¡Ya era hora! El aclamado por la crítica Crash Bandicoot™ 4:
+                                <h3 class="tarjeta__titulo">Crash Bandicoot 4</h3>
+                                <p class="tarjeta__texto">¡Ya era hora! El aclamado por la crítica Crash Bandicoot™ 4:
                                     It's About Time ya está disponible en Steam.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/1378990/Crash_Bandicoot_4_Its_About_Time/"
                                 target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -339,15 +338,15 @@
                         <img src="../img/f1-manager.jpg" class="card-img-top" alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">F1 Manager 2022</h3>
-                                <p class="texto-tarjeta">Deja huella en la Formula 1 con F1 Manager 2022. Conviértete en
+                                <h3 class="tarjeta__titulo">F1 Manager 2022</h3>
+                                <p class="tarjeta__texto">Deja huella en la Formula 1 con F1 Manager 2022. Conviértete en
                                     el jefe de la escudería de tu elección y
                                     elige entre una amplia plantilla de personal y pilotos de 2022.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/1378990/Crash_Bandicoot_4_Its_About_Time/"
                                 target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>
@@ -359,14 +358,14 @@
                             alt="Portada juego red-dead-redemption">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <div class="d-flex flex-column">
-                                <h3 class="titulo-tarjeta">Two Point Campus</h3>
-                                <p class="texto-tarjeta">Construye la universidad de tus sueños con Two Point Campus, de
+                                <h3 class="tarjeta__titulo">Two Point Campus</h3>
+                                <p class="tarjeta__texto">Construye la universidad de tus sueños con Two Point Campus, de
                                     los creadores de Two Point Hospital. Construye, contrata y
                                     dirige una institución académica llena de asignaturas disparatadas.
                                 </p>
                             </div>
                             <a href="https://store.steampowered.com/app/1649080/Two_Point_Campus/" target="_blank"
-                                class="d-flex align-items-center justify-content-center boton-comprar">Comprar
+                                class="d-flex align-items-center justify-content-center tarjeta__boton">Comprar
                                 juego</a>
                         </div>
                     </article>

@@ -1,0 +1,70 @@
+.tarjeta {
+    margin-bottom: 10px;
+    border: solid 2px red;
+    border-radius: 0;
+    box-shadow: 5px 5px 10px $sombra-cajas;
+    background-color: #181a1b;
+    color: #d1cdc7;
+    width: 20rem;
+
+    &__titulo {
+        margin-bottom: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    &__texto {
+        color: rgb(212, 209, 209);
+    }
+
+    &__boton {
+        margin: 10px;
+        padding: 1px;
+        border: solid white 3px;
+        color: gold;
+        background-color: rgb(123, 6, 6);
+        font-size: larger;
+        transition: 0.4s;
+
+        &:hover {
+            color: white;
+            background-color: red;
+            box-shadow: 1px 1px 10px white;
+        }
+    }
+
+    &__boton--precompra{
+        margin: 10px;
+        padding: 1px;
+        border: solid white 3px;
+        color: gold;
+        background-color: green;
+        font-size: larger;
+        transition: 0.4s;
+
+        &:hover {
+            color: black;
+            background-color: rgb(143, 210, 42);
+            box-shadow: 1px 1px 10px white;
+        }
+    }
+
+    &__boton--oferta{
+        margin: 10px;
+        padding: 1px;
+        border: solid white 3px;
+        color: gold;
+        background-color: rgb(0, 21, 128);
+        font-size: larger;
+        transition: 0.4s;
+
+        &:hover{
+            color: red;
+            background-color: rgb(4, 34, 187);
+            box-shadow: 1px 1px 10px white;
+        }
+    }
+
+
+
+}

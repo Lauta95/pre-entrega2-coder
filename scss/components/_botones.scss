@@ -1,0 +1,15 @@
+.btnver {
+    font-weight: 900;
+    background-color: #8b0019;
+    color: white;
+    border: solid 1px black;
+    box-shadow: 2px 2px 10px $rojo-uno;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: $rojo-uno;
+        font-size: 18px;
+    }
+}
+
+

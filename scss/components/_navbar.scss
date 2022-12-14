@@ -1,0 +1,37 @@
+header {
+    background-color: $fondo-header;
+    color: #aba9bb;
+}
+
+.boton-hamburguesa {
+    background-color: white;
+}
+
+.busqueda {
+    margin: 10px;
+
+    &__boton {
+        background-color: white;
+        color: black;
+        border: solid 3px black;
+        box-shadow: 1px 1px 3px;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: $amarillo-hover;
+            color: black;
+            transition: 0.2s;
+            border: solid 3px $border-hover;
+            box-shadow: 3px 3px 30px white;
+        }
+    }
+}
+
+.nav-link {
+    color: white;
+    &:hover{
+        color: $amarillo-hover;
+    }
+}
+
+
