@@ -3,8 +3,8 @@
     border: solid 2px red;
     border-radius: 0;
     box-shadow: 5px 5px 10px $sombra-cajas;
-    background-color: #181a1b;
-    color: #d1cdc7;
+    background-color: $fondo-tarjetas;
+    color: $color-letrastarjetas;
     width: 20rem;
 
     &__titulo {
@@ -33,7 +33,7 @@
         }
     }
 
-    &__boton--precompra{
+    &__boton--precompra {
         margin: 10px;
         padding: 1px;
         border: solid white 3px;
@@ -49,7 +49,7 @@
         }
     }
 
-    &__boton--oferta{
+    &__boton--oferta {
         margin: 10px;
         padding: 1px;
         border: solid white 3px;
@@ -58,13 +58,28 @@
         font-size: larger;
         transition: 0.4s;
 
-        &:hover{
+        &:hover {
             color: red;
             background-color: rgb(4, 34, 187);
             box-shadow: 1px 1px 10px white;
         }
     }
 
+}
 
+.tarjetanosotros {
 
+    &__body {
+        background-color: $fondo-tarjetas;
+        color: $color-letrastarjetas;
+    }
+
+    &__titulo {
+        font-weight: 900;
+    }
+
+    &__parrafo {
+        font-family: $font-parrafonosotros;
+        font-size: small;
+    }
 }

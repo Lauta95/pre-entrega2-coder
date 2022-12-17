@@ -154,6 +154,18 @@ header {
   box-shadow: 1px 1px 10px white;
 }
 
+.tarjetanosotros__body {
+  background-color: #181a1b;
+  color: #d1cdc7;
+}
+.tarjetanosotros__titulo {
+  font-weight: 900;
+}
+.tarjetanosotros__parrafo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: small;
+}
+
 .carrusel__imagen {
   height: 600px;
   width: 100%;
@@ -167,10 +179,10 @@ header {
 }
 
 .acordeon {
-  background-color: #5c015e;
   border: solid black 5px;
   box-shadow: 1px 1px 20px rgb(241, 182, 192);
   font-size: 20px;
+  border-radius: 10px;
 }
 .acordeon__btnacordeon {
   font-size: 20px;
