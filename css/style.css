@@ -84,6 +84,7 @@ header {
 }
 .nav-link:hover {
   color: rgb(103, 103, 249);
+  transition: 0.2s;
 }
 
 .btnver {
@@ -168,7 +169,7 @@ header {
 }
 .tarjetanosotros__parrafo {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: small;
+  font-size: medium;
 }
 
 .carrusel__imagen {
@@ -180,7 +181,7 @@ header {
 .carrusel__texto {
   font-weight: 600;
   font-size: larger;
-  text-shadow: 5px 5px 10px rgb(216, 216, 10);
+  text-shadow: 5px 5px 10px rgb(103, 103, 249);
 }
 
 .acordeon {
@@ -191,6 +192,10 @@ header {
 }
 .acordeon__btnacordeon {
   font-size: 20px;
+}
+.acordeon__titulopregunta {
+  font-size: larger;
+  font-weight: 900;
 }
 
 .cajainfo {
