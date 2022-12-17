@@ -18,7 +18,7 @@ header {
         border-radius: 10px;
 
         &:hover {
-            background-color: $amarillo-hover;
+            background-color: $header-hover;
             color: black;
             transition: 0.2s;
             border: solid 3px $border-hover;
@@ -30,7 +30,7 @@ header {
 .nav-link {
     color: white;
     &:hover{
-        color: $amarillo-hover;
+        color: $header-hover;
     }
 }
 

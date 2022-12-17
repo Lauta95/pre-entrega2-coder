@@ -72,7 +72,7 @@ header {
   border-radius: 10px;
 }
 .busqueda__boton:hover {
-  background-color: rgb(250, 238, 9);
+  background-color: rgb(103, 103, 249);
   color: black;
   transition: 0.2s;
   border: solid 3px rgb(143, 3, 143);
@@ -83,7 +83,7 @@ header {
   color: white;
 }
 .nav-link:hover {
-  color: rgb(250, 238, 9);
+  color: rgb(103, 103, 249);
 }
 
 .btnver {
