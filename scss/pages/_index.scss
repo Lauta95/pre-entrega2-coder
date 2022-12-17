@@ -2,16 +2,14 @@
     margin-bottom: 20px;
 
     &__imagen {
-        height: 100%;
-        width: 100%;
+        @include imagen(100%, 100%);
         border: 3px solid;
     }
 }
 
 .informacion {
     padding: 1rem;
-    background-color: rgb(243, 237, 237);
-    color: rgb(42, 41, 41);
+    @include colores(rgb(243, 237, 237), rgb(42, 41, 41));
     border: solid black 3px;
     height: 200px;
     overflow: auto;
@@ -22,6 +20,7 @@
 .tecnico {
     font-size: larger;
     font-weight: 300;
+    color: $color-textosbody;
 }
 
 .imagen-portada {
@@ -32,11 +31,11 @@
 
 h1 {
     margin: 10px;
-    color: black;
+    color: $color-textosbody;
     text-shadow: 3px 3px 10px;
 }
 
 .texto-inicio {
-    color: black;
+    color: $color-textoinicio;
     @include font(800, larger);
 }

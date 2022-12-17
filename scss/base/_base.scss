@@ -22,12 +22,12 @@ p,
 figure,
 blockquote,
 dl,
-dd  {
+dd {
     margin: 0;
 }
 
 body {
-    background-image: radial-gradient(circle, #ffe21f, #e9cd17, #d3b910, #bda507, #a89200);
+    background-image: $fondo-body;
     font-family: 'Kanit', sans-serif;
 
     display: flex;
@@ -47,4 +47,9 @@ main {
     text-shadow: white 2px 2px 10px;
     background-color: black;
     border: solid 1px;
+}
+
+th,
+td {
+    color: white;
 }

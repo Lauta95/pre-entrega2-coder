@@ -21,14 +21,12 @@
         margin: 10px;
         padding: 1px;
         border: solid white 3px;
-        color: gold;
-        background-color: rgb(123, 6, 6);
+        @include colores(rgb(123, 6, 6), gold);
         font-size: larger;
         transition: 0.4s;
 
         &:hover {
-            color: white;
-            background-color: red;
+            @include colores(red, white);
             box-shadow: 1px 1px 10px white;
         }
     }
@@ -37,14 +35,12 @@
         margin: 10px;
         padding: 1px;
         border: solid white 3px;
-        color: gold;
-        background-color: green;
+        @include colores(green, gold);
         font-size: larger;
         transition: 0.4s;
 
         &:hover {
-            color: black;
-            background-color: rgb(143, 210, 42);
+            @include colores(rgb(143, 210, 42), black);
             box-shadow: 1px 1px 10px white;
         }
     }
@@ -53,14 +49,12 @@
         margin: 10px;
         padding: 1px;
         border: solid white 3px;
-        color: gold;
-        background-color: rgb(0, 21, 128);
+        @include colores(rgb(0, 21, 128), gold);
         font-size: larger;
         transition: 0.4s;
 
         &:hover {
-            color: red;
-            background-color: rgb(4, 34, 187);
+            @include colores(rgb(4, 34, 187), red);
             box-shadow: 1px 1px 10px white;
         }
     }
