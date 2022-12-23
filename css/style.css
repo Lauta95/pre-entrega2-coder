@@ -195,6 +195,12 @@ header {
   font-weight: 600;
   font-size: larger;
   text-shadow: 5px 5px 10px rgb(103, 103, 249);
+  color: rgb(42, 40, 40);
+  background-color: rgb(249, 249, 249);
+  border-radius: 10px;
+  border: 2px black solid;
+  opacity: 0.9;
+  box-shadow: 10px 10px 60px blue;
 }
 
 .acordeon {

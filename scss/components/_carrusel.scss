@@ -9,4 +9,10 @@
     font-weight: 600;
     font-size: larger;
     text-shadow: 5px 5px 10px $header-hover;
+    color: $color-textoinicio;
+    background-color: $color-textosbody;
+    border-radius: 10px;
+    border: 2px black solid;
+    opacity: 0.90;
+    box-shadow: 10px 10px 60px blue;
 }
