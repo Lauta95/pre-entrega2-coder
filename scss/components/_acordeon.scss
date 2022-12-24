@@ -9,7 +9,7 @@
     }
 
     &__titulopregunta {
-        font-size: larger;
+        font-size: map-get($tipografia,"main");
         font-weight: 900;
     }
 }

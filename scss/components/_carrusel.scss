@@ -7,7 +7,7 @@
 
 .carrusel__texto {
     font-weight: 600;
-    font-size: larger;
+    font-size: map-get($tipografia,"main");
     text-shadow: 5px 5px 10px $header-hover;
     color: $color-textoinicio;
     background-color: $color-textosbody;

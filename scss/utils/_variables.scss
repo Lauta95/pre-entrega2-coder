@@ -9,3 +9,9 @@ $font-parrafonosotros: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-ser
 $fondo-body: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
 $color-textosbody: rgb(249, 249, 249);
 $color-textoinicio: rgb(42, 40, 40);
+$tipografia:(
+    main: 18px,
+    botones: 20px,
+    hover: 19px
+);
+$sombra-botones: 1px 1px 10px white;

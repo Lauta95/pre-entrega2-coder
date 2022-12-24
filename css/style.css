@@ -97,7 +97,7 @@ header {
 }
 .btnver:hover {
   background-color: #ff0011;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .tarjeta {
@@ -117,28 +117,23 @@ header {
 .tarjeta__texto {
   color: rgb(212, 209, 209);
 }
-.tarjeta__boton {
+.tarjeta__boton, .tarjeta__boton--oferta, .tarjeta__boton--precompra {
   margin: 10px;
   padding: 1px;
   border: solid white 3px;
   background-color: rgb(123, 6, 6);
   color: gold;
-  font-size: larger;
+  font-size: 20px;
   transition: 0.4s;
 }
-.tarjeta__boton:hover {
+.tarjeta__boton:hover, .tarjeta__boton--oferta:hover, .tarjeta__boton--precompra:hover {
   background-color: red;
   color: white;
   box-shadow: 1px 1px 10px white;
 }
 .tarjeta__boton--precompra {
-  margin: 10px;
-  padding: 1px;
-  border: solid white 3px;
   background-color: green;
   color: gold;
-  font-size: larger;
-  transition: 0.4s;
 }
 .tarjeta__boton--precompra:hover {
   background-color: rgb(143, 210, 42);
@@ -146,13 +141,8 @@ header {
   box-shadow: 1px 1px 10px white;
 }
 .tarjeta__boton--oferta {
-  margin: 10px;
-  padding: 1px;
-  border: solid white 3px;
   background-color: rgb(0, 21, 128);
   color: gold;
-  font-size: larger;
-  transition: 0.4s;
 }
 .tarjeta__boton--oferta:hover {
   background-color: rgb(4, 34, 187);
@@ -163,14 +153,12 @@ header {
 .tarjetanosotros {
   box-shadow: 5px 5px 10px purple;
 }
-.tarjetanosotros__body {
+.tarjetanosotros__body, .tarjetanosotros__body--izquierda {
   background-color: #181a1b;
   color: #d1cdc7;
   border-radius: 0px 0.375rem 0.375rem 0px;
 }
 .tarjetanosotros__body--izquierda {
-  background-color: #181a1b;
-  color: #d1cdc7;
   border-radius: 0.375rem 0px 0px 0.375rem;
 }
 .tarjetanosotros__titulo {
@@ -193,7 +181,7 @@ header {
 
 .carrusel__texto {
   font-weight: 600;
-  font-size: larger;
+  font-size: 18px;
   text-shadow: 5px 5px 10px rgb(103, 103, 249);
   color: rgb(42, 40, 40);
   background-color: rgb(249, 249, 249);
@@ -213,7 +201,7 @@ header {
   font-size: 20px;
 }
 .acordeon__titulopregunta {
-  font-size: larger;
+  font-size: 18px;
   font-weight: 900;
 }
 
@@ -273,7 +261,7 @@ footer {
 }
 
 .tecnico {
-  font-size: larger;
+  font-size: 18px;
   font-weight: 300;
   color: rgb(249, 249, 249);
 }
