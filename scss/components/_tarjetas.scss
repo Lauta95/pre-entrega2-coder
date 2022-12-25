@@ -55,16 +55,19 @@
 
 .tarjetanosotros {
     box-shadow: 5px 5px 10px purple;
+    background-color: $fondo-tarjetas;
+    border: solid white 1px;
+
 
     &__body {
         background-color: $fondo-tarjetas;
         color: $color-letrastarjetas;
-        border-radius: 0px 0.375rem 0.375rem 0px;
+        font-style: italic
     }
 
     &__body--izquierda {
         @extend .tarjetanosotros__body;
-        border-radius: 0.375rem 0px 0px 0.375rem;
+        color: white;
     }
 
     &__titulo {

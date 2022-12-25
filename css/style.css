@@ -152,14 +152,16 @@ header {
 
 .tarjetanosotros {
   box-shadow: 5px 5px 10px purple;
+  background-color: #181a1b;
+  border: solid white 1px;
 }
 .tarjetanosotros__body, .tarjetanosotros__body--izquierda {
   background-color: #181a1b;
   color: #d1cdc7;
-  border-radius: 0px 0.375rem 0.375rem 0px;
+  font-style: italic;
 }
 .tarjetanosotros__body--izquierda {
-  border-radius: 0.375rem 0px 0px 0.375rem;
+  color: white;
 }
 .tarjetanosotros__titulo {
   font-weight: 900;
