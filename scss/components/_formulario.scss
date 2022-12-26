@@ -17,8 +17,29 @@
         box-shadow: 1px 1px 10px black;
     }
 
-    &__nosotros{
+    &__nosotros {
         font-size: large;
         font-style: oblique;
+    }
+}
+
+.formularioFeedback {
+
+
+
+    &__positivo {
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        color: rgb(4, 117, 4);
+        background-color: rgb(3, 145, 18);
+        border: solid 1px grey;
+        transition: 0.5s;
+    }
+
+    &__negativo{
+        @extend .formularioFeedback__positivo;
+        color: rgb(244, 22, 22);
+        background-color: rgb(177, 44, 11);
     }
 }

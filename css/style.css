@@ -97,7 +97,6 @@ header {
 }
 .btnver:hover {
   background-color: #ff0011;
-  font-size: 19px;
 }
 
 .tarjeta {
@@ -227,6 +226,20 @@ header {
 .cajainfo__nosotros {
   font-size: large;
   font-style: oblique;
+}
+
+.formularioFeedback__positivo, .formularioFeedback__negativo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  color: rgb(4, 117, 4);
+  background-color: rgb(3, 145, 18);
+  border: solid 1px grey;
+  transition: 0.5s;
+}
+.formularioFeedback__negativo {
+  color: rgb(244, 22, 22);
+  background-color: rgb(177, 44, 11);
 }
 
 footer {
