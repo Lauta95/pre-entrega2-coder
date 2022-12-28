@@ -41,9 +41,9 @@ main {
 .titulo-contenedor {
   margin-bottom: 20px;
   padding: 10px;
-  color: white;
-  text-shadow: white 2px 2px 10px;
-  background-color: black;
+  color: rgb(249, 249, 249);
+  text-shadow: rgb(103, 103, 249) 2px 2px 10px;
+  background-color: #181a1b;
   border: solid 1px;
 }
 
@@ -58,7 +58,7 @@ header {
 }
 
 .boton-hamburguesa {
-  background-color: white;
+  background-color: rgb(249, 249, 249);
 }
 
 .busqueda {
@@ -254,6 +254,7 @@ footer {
   padding: 1rem;
   background-color: rgb(243, 237, 237);
   color: rgb(42, 41, 41);
+  text-shadow: 2px 2px 5px rgb(157, 157, 210);
   border: solid black 3px;
   height: 200px;
   overflow: auto;
