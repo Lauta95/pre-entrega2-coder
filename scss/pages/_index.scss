@@ -11,16 +11,18 @@
     padding: 1rem;
     @include colores(rgb(243, 237, 237), rgb(42, 41, 41));
     border: solid black 3px;
-    height: 200px;
+    height: auto;
     overflow: auto;
     text-align: start;
     box-shadow: 1px 1px 20px $sombra-cajas;
+    border-radius: 10px
 }
 
 .tecnico {
-    font-size: map-get($tipografia,"main");
+    font-size: map-get($tipografia, "main");
     font-weight: 300;
     color: $color-textosbody;
+
 }
 
 .imagen-portada {

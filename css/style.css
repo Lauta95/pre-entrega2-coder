@@ -31,6 +31,7 @@ body {
   font-family: "Kanit", sans-serif;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
@@ -250,6 +251,7 @@ footer {
   font-weight: 900;
   font-size: larger;
   padding-top: 10px;
+  margin-top: auto;
 }
 
 .redes:hover {
@@ -271,10 +273,11 @@ footer {
   color: rgb(42, 41, 41);
   text-shadow: 2px 2px 5px rgb(157, 157, 210);
   border: solid black 3px;
-  height: 200px;
+  height: auto;
   overflow: auto;
   text-align: start;
   box-shadow: 1px 1px 20px rgb(241, 182, 192);
+  border-radius: 10px;
 }
 
 .tecnico {
