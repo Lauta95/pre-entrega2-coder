@@ -85,11 +85,9 @@
 }
 
 .juegosGratis {
-    color: rgb(0, 251, 255);
+    @include colores(rgba(0, 0, 0, 0.206), rgb(0, 251, 255));
+    @include font(900, 20px);
     text-shadow: 1px 3px 10px black;
-    font-size: 20px;
-    font-weight: bolder;
-    background-color: rgba(0, 0, 0, 0.206);
     transition: 1s;
     border: solid rgb(72, 0, 255) 1px;
     box-shadow: 1px 1px 20px rgb(251, 204, 212);
@@ -97,8 +95,6 @@
 
     &:hover {
         transition: 1s;
-        background-color: rgba(0, 0, 0, 0.655);
-        color: white;
-
+        @include colores(rgba(0, 0, 0, 0.655), white);
     }
 }

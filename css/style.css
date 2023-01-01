@@ -174,11 +174,11 @@ header {
 }
 
 .juegosGratis {
-  color: rgb(0, 251, 255);
-  text-shadow: 1px 3px 10px black;
-  font-size: 20px;
-  font-weight: bolder;
   background-color: rgba(0, 0, 0, 0.206);
+  color: rgb(0, 251, 255);
+  font-weight: 900;
+  font-size: 20px;
+  text-shadow: 1px 3px 10px black;
   transition: 1s;
   border: solid rgb(72, 0, 255) 1px;
   box-shadow: 1px 1px 20px rgb(251, 204, 212);
