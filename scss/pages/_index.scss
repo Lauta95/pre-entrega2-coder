@@ -4,6 +4,7 @@
     &__imagen {
         @include imagen(100%, 100%);
         border: 3px solid;
+        object-fit: cover;
     }
 }
 
